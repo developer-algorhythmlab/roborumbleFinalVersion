@@ -37,7 +37,7 @@ export default function Navbar({ currentPage, onNavigate }) {
         <img
           src={logoImg}
           alt="Robo-Rumble"
-          style={{ height: '68px', width: 'auto', objectFit: 'contain' }}
+          style={{ height: '128px', width: 'auto', objectFit: 'contain' }}
         />
       </div>
 

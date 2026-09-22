@@ -67,7 +67,7 @@ export default function Home({ onNavigate }) {
         <div className="hero-lines" />
 
         {/* Discord button - top right */}
-        <div style={{ position: 'absolute', top: '6.5rem', right: '1.5rem', zIndex: 2 }}>
+        <div style={{ position: 'absolute', top: '10.5rem', right: '1.5rem', zIndex: 2 }}>
           <a
             href="https://discord.gg/aeTpRuPzcb"
             target="_blank"
