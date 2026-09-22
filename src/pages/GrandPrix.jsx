@@ -17,6 +17,7 @@ export default function GrandPrix({ onNavigate }) {
             href="https://discord.gg/aeTpRuPzcb"
             target="_blank"
             rel="noopener noreferrer"
+            className="discord-glow-btn"
             style={{
               display: 'inline-flex',
               alignItems: 'center',
@@ -55,7 +56,7 @@ export default function GrandPrix({ onNavigate }) {
           </h1>
           <p style={{color:'#c0c0d8'}}>No driver. No remote. Just pure code, clever engineering, and a miniature vehicle smart enough to navigate a track entirely on its own. Code the car. Win the race.</p>
           <div className="event-hero-meta">
-            {['Fully Autonomous','AI / Sensors / Code','Max 4 Members','24 October 2026'].map(t => (
+            {['Fully Autonomous','AI / Sensors / Code','Max 4 Members','17 October 2026'].map(t => (
               <div className="event-meta-pill" key={t}><span className="dot" />{t}</div>
             ))}
           </div>
@@ -110,7 +111,7 @@ export default function GrandPrix({ onNavigate }) {
                 <div className="prize-card gold" style={{padding:'3rem',textAlign:'center'}}>
                   <span className="prize-medal"></span>
                   <div className="prize-rank">Overall Winners</div>
-                  <div className="prize-amount text-yellow">WIN BIG!</div>
+                  <div className="prize-amount text-yellow win-big-glow">WIN BIG!</div>
                   <div className="prize-desc">Ignite your next move with epic prizes.</div>
                 </div>
               </div>

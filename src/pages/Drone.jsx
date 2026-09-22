@@ -16,6 +16,7 @@ export default function Drone({ onNavigate }) {
             href="https://discord.gg/aeTpRuPzcb"
             target="_blank"
             rel="noopener noreferrer"
+            className="discord-glow-btn"
             style={{
               display: 'inline-flex',
               alignItems: 'center',

@@ -18,6 +18,7 @@ export default function RoboWars({ onNavigate }) {
             href="https://discord.gg/aeTpRuPzcb"
             target="_blank"
             rel="noopener noreferrer"
+            className="discord-glow-btn"
             style={{
               display: 'inline-flex',
               alignItems: 'center',
@@ -60,7 +61,7 @@ export default function RoboWars({ onNavigate }) {
           </h1>
 
           <div className="event-hero-meta">
-            {['Remote Control','Combat Arena','Max 4 Members','24 October 2026'].map(t => (
+            {['Remote Control','Combat Arena','Max 4 Members','17 October 2026'].map(t => (
               <div className="event-meta-pill" key={t}><span className="dot" />{t}</div>
             ))}
           </div>
@@ -136,7 +137,7 @@ export default function RoboWars({ onNavigate }) {
               <div className="prize-card gold" style={{padding:'3rem',textAlign:'center'}}>
                 <span className="prize-medal"></span>
                 <div className="prize-rank">Overall Winner</div>
-                <div className="prize-amount text-yellow">WIN BIG!</div>
+                <div className="prize-amount text-yellow win-big-glow">WIN BIG!</div>
                 <div className="prize-desc">Ignite your next move with epic prizes.</div>
               </div>
             </div>
@@ -159,7 +160,7 @@ export default function RoboWars({ onNavigate }) {
                   ['02','Select Robo Wars','Choose "Robo Wars" as your competition category during registration.'],
                   ['03','Join Discord','Connect at discord.gg/aeTpRuPzcb for all updates and rules.'],
                   ['04','Read the Rules','Download the full technical specification and ensure your robot complies.'],
-                  ['05','Build & Compete','Start early. Great robots take time. The arena opens 24 October 2026.'],
+                  ['05','Build & Compete','Start early. Great robots take time. The arena opens 17 October 2026.'],
                 ].map(([n,h,p]) => (
                   <div className="step" key={n}><div className="step-num">{n}</div><div className="step-content"><h4>{h}</h4><p>{p}</p></div></div>
                 ))}
